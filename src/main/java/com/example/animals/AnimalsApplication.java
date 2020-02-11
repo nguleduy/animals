@@ -23,6 +23,9 @@ public class AnimalsApplication {
 		Chicken chicken = new Chicken();
 		chicken.sing();
 		chicken.fly();
+
+		chicken = new Chicken(true);
+		chicken.sing();
 	}
 
 }

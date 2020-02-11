@@ -2,8 +2,22 @@ package com.example.animals.model;
 
 public class Chicken extends Bird {
 
+  private Rooter rooter;
+
+  private boolean male = false;
+
+  public Chicken() {};
+
+  public Chicken(boolean isMale) {
+    this.male = true;
+  }
+
   public void sing() {
-    System.out.println("Cluck, cluck");
+    if (this.male) {
+      System.out.println("Cock-a-doodle-doo");
+    } else {
+      System.out.println("Cluck, cluck");
+    }
   }
 
   @Override

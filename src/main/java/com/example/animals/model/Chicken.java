@@ -2,7 +2,7 @@ package com.example.animals.model;
 
 public class Chicken extends Bird {
 
-  private Rooter rooter;
+  private Rooster rooster;
 
   private boolean male = false;
 
@@ -14,14 +14,14 @@ public class Chicken extends Bird {
 
   public void sing() {
     if (this.male) {
-      System.out.println("Cock-a-doodle-doo");
+      System.out.println(Constant.ROOSTER_SING);
     } else {
-      System.out.println("Cluck, cluck");
+      System.out.println(Constant.CHICKEN_SING);
     }
   }
 
   @Override
   public void fly() {
-    System.out.println("I am cannot fly");
+    System.out.println(Constant.CANNOT_FLY);
   }
 }

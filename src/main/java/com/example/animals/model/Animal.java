@@ -8,16 +8,16 @@ public class Animal implements CanWalk, CanFly, CanSing {
 
   @Override
   public void walk() {
-    System.out.println("I am walking");
+    System.out.println(Constant.CAN_WALK);
   }
 
   @Override
   public void fly() {
-    System.out.println("I am flying");
+    System.out.println(Constant.CAN_FLY);
   }
 
   @Override
   public void sing() {
-    System.out.println("I am singing");
+    System.out.println(Constant.CAN_SING);
   }
 }

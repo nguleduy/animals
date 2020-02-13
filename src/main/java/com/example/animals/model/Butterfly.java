@@ -23,6 +23,10 @@ public class Butterfly extends ConcreteAnimal {
     this.butterfly = butterfly;
   }
 
+  public Butterfly getButterfly() {
+    return butterfly;
+  }
+
   public void convertToButterfly() {
     this.setButterfly(new ConcreteButterfly());
   }

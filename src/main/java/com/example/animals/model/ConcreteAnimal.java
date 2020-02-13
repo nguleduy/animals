@@ -9,6 +9,7 @@ public class ConcreteAnimal implements Animal {
   private boolean male;
   private Size size;
   private Color color;
+  private String language;
 
   public boolean isMale() {
     return male;
@@ -32,5 +33,13 @@ public class ConcreteAnimal implements Animal {
 
   public void setColor(Color color) {
     this.color = color;
+  }
+
+  public String getLanguage() {
+    return language;
+  }
+
+  public void setLanguage(String language) {
+    this.language = language;
   }
 }

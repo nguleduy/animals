@@ -1,19 +1,19 @@
 package com.example.animals.model;
 
-public class Chicken extends Bird {
+import com.example.animals.service.CanSing;
+import com.example.animals.service.CanWalk;
 
-  private Rooster rooster;
+public class Chicken extends Bird implements CanWalk, CanSing {
 
-  private boolean male = false;
-
-  public Chicken() {};
+  public Chicken() {
+  }
 
   public Chicken(boolean isMale) {
-    this.male = true;
+    this.setMale(isMale);
   }
 
   public void sing() {
-    if (this.male) {
+    if (this.isMale()) {
       System.out.println(Constant.ROOSTER_SING);
     } else {
       System.out.println(Constant.CHICKEN_SING);
@@ -21,7 +21,8 @@ public class Chicken extends Bird {
   }
 
   @Override
-  public void fly() {
-    System.out.println(Constant.CANNOT_FLY);
+  public void walk() {
+    System.out.println(Constant.CAN_WALK);
   }
+
 }

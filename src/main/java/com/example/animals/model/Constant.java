@@ -11,4 +11,7 @@ public interface Constant {
   String DUCK_SING = "Quack, quack";
   String CHICKEN_SING = "Cluck, cluck";
   String ROOSTER_SING = "Cock-a-doodle-doo";
+  String DOG_SING = "Woof, woof";
+  String CAT_SING = "Meow";
+
 }

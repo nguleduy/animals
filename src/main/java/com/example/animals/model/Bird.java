@@ -1,5 +1,5 @@
 package com.example.animals.model;
 
-public class Bird extends Animal {
+public class Bird extends ConcreteAnimal {
 
 }

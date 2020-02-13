@@ -1,5 +1,8 @@
 package com.example.animals.model;
 
+import com.example.animals.model.constant.AnimalType;
+import com.example.animals.model.constant.ParrotType;
+
 public class InitialAnimal {
 
   public ConcreteAnimal initial(AnimalType animalType) {
@@ -22,6 +25,12 @@ public class InitialAnimal {
         return new Parrot(ParrotType.ROOSTER);
       case PARROT_WITH_PHONE:
         return new Parrot(ParrotType.PHONE);
+      case SHARK:
+        return new Shark();
+      case CLOWN_FISH:
+        return new Clownfish();
+      case DOLPHIN:
+        return new Dolphin();
       default:
         return null;
     }

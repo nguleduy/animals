@@ -1,0 +1,6 @@
+package com.example.animals.model.constant;
+
+public enum AnimalType {
+  BIRD, CHICKEN, ROOSTER, DUCK, PARROT_WITH_DOG, PARROT_WITH_CAT, PARROT_WITH_DUCK, PARROT_WITH_ROOSTER, PARROT_WITH_PHONE,
+  SHARK, CLOWN_FISH, DOLPHIN
+}

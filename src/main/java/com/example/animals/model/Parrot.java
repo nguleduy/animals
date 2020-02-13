@@ -1,5 +1,7 @@
 package com.example.animals.model;
 
+import com.example.animals.model.constant.Constant;
+import com.example.animals.model.constant.ParrotType;
 import com.example.animals.service.CanFly;
 import com.example.animals.service.CanSing;
 import com.example.animals.service.CanWalk;

@@ -13,5 +13,6 @@ public interface Constant {
   String ROOSTER_SING = "Cock-a-doodle-doo";
   String DOG_SING = "Woof, woof";
   String CAT_SING = "Meow";
+  String PHONE = "Ring ring";
 
 }

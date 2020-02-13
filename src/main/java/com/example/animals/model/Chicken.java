@@ -5,9 +5,6 @@ import com.example.animals.service.CanWalk;
 
 public class Chicken extends Bird implements CanWalk, CanSing {
 
-  public Chicken() {
-  }
-
   public Chicken(boolean isMale) {
     this.setMale(isMale);
   }

@@ -1,6 +1,7 @@
 package com.example.animals.model;
 
 import com.example.animals.model.constant.AnimalType;
+import com.example.animals.model.constant.ButterflyType;
 import com.example.animals.model.constant.ParrotType;
 
 public class InitialAnimal {
@@ -31,6 +32,8 @@ public class InitialAnimal {
         return new Clownfish();
       case DOLPHIN:
         return new Dolphin();
+      case BUTTERFLY:
+        return new Butterfly(ButterflyType.CATERPILLAR);
       default:
         return null;
     }

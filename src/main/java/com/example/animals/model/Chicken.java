@@ -1,8 +1,8 @@
 package com.example.animals.model;
 
 import com.example.animals.model.constant.Constant;
-import com.example.animals.service.CanSing;
-import com.example.animals.service.CanWalk;
+import com.example.animals.model.interfaces.CanSing;
+import com.example.animals.model.interfaces.CanWalk;
 
 import java.util.HashMap;
 import java.util.Map;

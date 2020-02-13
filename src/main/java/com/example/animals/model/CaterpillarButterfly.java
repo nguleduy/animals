@@ -1,7 +1,7 @@
 package com.example.animals.model;
 
 import com.example.animals.model.constant.Constant;
-import com.example.animals.service.CanWalk;
+import com.example.animals.model.interfaces.CanWalk;
 
 public class CaterpillarButterfly extends Butterfly implements CanWalk {
 

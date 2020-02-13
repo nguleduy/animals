@@ -2,7 +2,7 @@ package com.example.animals.model;
 
 import com.example.animals.model.constant.Color;
 import com.example.animals.model.constant.Size;
-import com.example.animals.service.Animal;
+import com.example.animals.model.interfaces.Animal;
 
 public class ConcreteAnimal implements Animal {
 

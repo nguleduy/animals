@@ -3,7 +3,7 @@ package com.example.animals.model;
 import com.example.animals.model.constant.Color;
 import com.example.animals.model.constant.Constant;
 import com.example.animals.model.constant.Size;
-import com.example.animals.service.CanEatFish;
+import com.example.animals.model.interfaces.CanEatFish;
 
 public class Shark extends Fish implements CanEatFish {
 

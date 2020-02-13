@@ -1,6 +1,6 @@
 package com.example.animals.model;
 
-import com.example.animals.service.*;
+import com.example.animals.model.interfaces.*;
 
 public class CountingAnimal {
 

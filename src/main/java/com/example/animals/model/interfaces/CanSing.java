@@ -1,4 +1,4 @@
-package com.example.animals.service;
+package com.example.animals.model.interfaces;
 
 public interface CanSing {
 

@@ -1,9 +1,9 @@
 package com.example.animals.model;
 
 import com.example.animals.model.constant.Constant;
-import com.example.animals.service.CanSing;
-import com.example.animals.service.CanSwim;
-import com.example.animals.service.CanWalk;
+import com.example.animals.model.interfaces.CanSing;
+import com.example.animals.model.interfaces.CanSwim;
+import com.example.animals.model.interfaces.CanWalk;
 
 public class Duck extends Bird implements CanSing, CanWalk, CanSwim {
 
